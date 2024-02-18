@@ -1,0 +1,54 @@
+.thanks__all{
+    position: relative;
+}
+
+
+.thanks__pages{
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 1000px;
+    height: 500px;
+    background: #fff;
+}
+
+.thanks__pages .background__text{
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 100pt;
+    font-weight: bold;
+    color: #e6e1df;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.thanks__text{
+    display: inline-block;
+    position: absolute;
+    color: #5c3522;
+    font-size: 20px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-40%, -50%)
+}
+
+.home__button--content{
+    font-family: 'Noto Serif JP', serif;
+    display: inline-block;
+    font-size: 8pt;
+    text-align: center;
+    cursor: pointer;
+    padding: 12px 23px;
+    background: #5c3522;
+    color: #ffffff;
+    line-height: 1em;
+    transition: .3s;
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}

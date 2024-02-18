@@ -1,0 +1,118 @@
+body {
+  background-color: #e6ded2;
+  max-width: 1230px;
+}
+
+.header{
+  max-width: 1230px;
+  height: 50px;
+  background: #fff;
+  display: flex;
+  position: relative;
+}
+
+.header__logo{
+  color: #5c3522;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Noto Serif JP', serif;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%)
+}
+
+.header__right{
+  font-family: 'Noto Serif JP', serif;
+  display: inline-block;
+  font-size: 8pt;
+  text-align: center;
+  cursor: pointer;
+  padding: 10px 20px;
+  background: #d7d3d2;
+  line-height: 1em;
+  transition: .3s;
+  text-decoration: none;
+  position: absolute;
+  border: solid;
+  border-color: #c4b7a4;
+  right: 5%;
+  top:50%;
+  transform: translate(-5%,-50%)
+}
+
+.header__button{
+  color: #c4b7a4;
+  text-decoration: none;
+  font-family: 'Noto Serif JP', serif;
+}
+
+.register__title{
+  text-align: center;
+  font-family: 'Noto Serif JP', serif;
+  color: #5c3522;
+  margin-bottom: 30px;
+}
+
+.form__window{
+  position: relative;
+}
+
+.form__content{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  width: 150px;
+  height: 150px;
+  align-items: center;
+  white-space: nowrap;
+  background-color: #fff;
+  border-radius: 10px;
+  border: solid;
+  border-color: #c4b7a4;
+  padding: 200px 300px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.form__group{
+  position: absolute;
+
+}
+
+.form__group--title{
+  color: #c4b7a4;
+}
+
+input{
+  height: 40px;
+  width: 300px;
+  padding: 0 30px;
+  border: none;
+  background-color: #d7d3d2;
+  color:#c4b7a4;
+  margin-bottom: 10px;
+}
+
+.form__button{
+  position: relative;
+  margin-top: 30px;
+}
+
+.form__button--submit{
+  font-family: 'Noto Serif JP', serif;
+  display: inline-block;
+  font-size: 8pt;
+  text-align: center;
+  cursor: pointer;
+  padding: 12px 23px;
+  background: #5c3522;
+  color: #ffffff;
+  line-height: 1em;
+  transition: .3s;
+  text-decoration: none;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%)
+}

@@ -1,0 +1,63 @@
+body {
+    max-width: 1230px;
+}
+
+.header {
+    max-width: 1230px;
+    height: 50px;
+    display: flex;
+    position: relative;
+    border-bottom: solid;
+    border-color: #d7d3d2;
+}
+
+.header__logo {
+    color: #5c3522;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Noto Serif JP', serif;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%)
+}
+
+.confirm__title {
+    text-align: center;
+    font-family: 'Noto Serif JP', serif;
+    color: #5c3522;
+    margin-bottom: 30px;
+}
+
+.confirm__window{
+    position: relative;
+}
+
+th,td {
+    border: solid 1px;
+    border-color: #d7d3d2;
+}
+
+table {
+    position: absolute;
+    left: 50%;
+    transform: translate(50%);
+    border-collapse: collapse;
+    width: 500px;
+}
+
+th {
+    width: 100px;
+    /* 幅指定 */
+    text-align: left;
+    /* 文字の揃え位置指定 */
+}
+
+td {
+    text-align: center;
+    /* 文字の揃え位置指定 */
+}
+
+.submit__button{
+    
+}

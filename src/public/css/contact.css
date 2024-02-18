@@ -1,0 +1,236 @@
+body {
+    max-width: 1230px;
+}
+
+.header {
+    max-width: 1230px;
+    height: 50px;
+    display: flex;
+    position: relative;
+    border-bottom: solid;
+    border-color: #d7d3d2;
+}
+
+.header__logo {
+    color: #5c3522;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Noto Serif JP', serif;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%)
+}
+
+.contact__title{
+    text-align: center;
+    font-family: 'Noto Serif JP', serif;
+    color: #5c3522;
+    margin-bottom: 30px;
+}
+
+.form{
+    width: 800px;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.form__group{
+    align-items: center;
+}
+
+.form__group--inner{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.form__group--row{
+    display: flex;
+    flex-direction: row;
+}
+
+.form__label--title{
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+    color: #c4b7a4;
+    width: 300px;
+}
+
+.form__group--text{
+    width: 500px;
+    text-align: right;
+}
+
+.form__group--name{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__group--name input{
+    width: 180px;
+}
+
+.form__group--radio{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__group--text--email input{
+    width: 400px;
+}
+
+.form__group--address input {
+    width: 400px;
+}
+
+.form__group--tel {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form__group--tel input{
+    width: 100px;
+}
+
+.form__group--tel p{
+    margin-top: -0.5px;
+    color: #c4b7a4;
+}
+
+.form__group--selectbox{
+    margin-right: 100px;
+}
+
+.form__group--selectbox select {
+    height: 30px;
+    width: 300px;
+    padding: 0 30px;
+    border: none;
+    background-color: #d7d3d2;
+    color: #c4b7a4;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+.form__group--selectbox::after{
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    content: "▼";
+    color: #c4b7a4;
+    position: absolute;
+    right: 220px;
+    top: 305px;
+    width: 0;
+}
+
+.form__group--textarea textarea{
+    height: 100px;
+    width: 400px;
+    padding: 0 30px;
+    border: none;
+    background-color: #d7d3d2;
+    color: #c4b7a4;
+    resize: none;
+}
+
+.input__content{
+    height: 30px;
+    width: 150px;
+    padding: 0 30px;
+    border: none;
+    background-color: #d7d3d2;
+    color: #c4b7a4;
+}
+
+
+label {
+    position: relative;
+    cursor: pointer;
+    padding-left: 30px;
+    color: #c4b7a4;
+    vertical-align: middle
+}
+
+label::before,
+label::after {
+    content: "";
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+}
+
+label::before {
+    background-color: #fff;
+    border: 1px solid #c4b7a4;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    left: 5px;
+}
+
+label::after {
+    background-color: #c4b7a4;
+    border-radius: 50%;
+    opacity: 0;
+    width: 16px;
+    height: 16px;
+    left: 7px
+}
+
+input:checked+label::after {
+    opacity: 1;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    border: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+
+.form__label--required{
+    color: red;
+}
+
+.form__button{
+    margin-top: 80px;
+}
+
+.form__button--submit{
+    font-family: 'Noto Serif JP', serif;
+    display: inline-block;
+    font-size: 8pt;
+    text-align: center;
+    cursor: pointer;
+    padding: 12px 23px;
+    background: #5c3522;
+    color: #ffffff;
+    line-height: 1em;
+    transition: .3s;
+    text-decoration: none;
+    margin: 0 auto;
+}
